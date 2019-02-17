@@ -1,0 +1,6 @@
+2019/02/16 17:35:00.387 [E] [init.go:51]  load config of mysqlUserName failed,is null
+2019/02/16 17:35:00.387 [D] [main.go:17]  load Config sucess,appconf:{{  0  } {   0}}
+2019/02/16 17:35:00.387 [D] [init.go:58]  success mysql success,Db:&{0xc0000f40c0 mysql false 0xc00017e120}
+2019/02/16 17:35:00.398 [D] [init.go:63]  init etcd succ
+2019/02/16 17:35:00.398 [D] [proc.go:201]  initAll success
+2019/02/16 17:35:00.736 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8081

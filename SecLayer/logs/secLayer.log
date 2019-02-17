@@ -1,0 +1,165 @@
+2019/02/17 21:00:12.465 [D]  init redis sucess
+2019/02/17 21:00:12.480 [D]  key[0] value[key:"/oldboy/seckill/product" create_revision:2 mod_revision:28 version:21 value:"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]" ]
+2019/02/17 21:00:12.481 [D]  sec info succ is [[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]]
+2019/02/17 21:00:12.481 [D]  load secProductInfo [{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:00:12.482 [D]  init all succ
+2019/02/17 21:00:12.483 [D]  init etcd sucess
+2019/02/17 21:00:12.483 [D]  begin watch key:/oldboy/seckill/product
+2019/02/17 21:00:12.483 [D]  all prcess goroutine started
+2019/02/17 21:00:12.483 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle user running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:12.486 [D]  handle write running
+2019/02/17 21:00:17.507 [D]  get config from etcd PUT "/oldboy/seckill/product":"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]"
+
+2019/02/17 21:00:17.507 [D]  get config from etcd succ,[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:00:23.316 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:00:23.3108507+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:00:23.317 [D]  begin process request:&{2     1112  2019-02-17 21:00:23.3108507 +0800 CST [ }
+2019/02/17 21:00:27.268 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:00:27.2493788+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:00:27.268 [D]  begin process request:&{2     1112  2019-02-17 21:00:27.2493788 +0800 CST [ }
+2019/02/17 21:00:28.293 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:00:28.2913792+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:00:28.293 [D]  begin process request:&{2     1112  2019-02-17 21:00:28.2913792 +0800 CST [ }
+2019/02/17 21:00:29.224 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:00:29.2233784+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:00:29.225 [D]  begin process request:&{2     1112  2019-02-17 21:00:29.2233784 +0800 CST [ }
+2019/02/17 21:00:30.493 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:00:30.4923793+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:00:30.494 [D]  begin process request:&{2     1112  2019-02-17 21:00:30.4923793 +0800 CST [ }
+2019/02/17 21:00:31.693 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:00:31.6923789+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:00:31.694 [D]  begin process request:&{2     1112  2019-02-17 21:00:31.6923789 +0800 CST [ }
+2019/02/17 21:01:16.688 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:01:16.6873798+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:01:16.689 [D]  begin process request:&{2     1112  2019-02-17 21:01:16.6873798 +0800 CST [ }
+2019/02/17 21:01:26.341 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:01:26.3393799+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:01:26.341 [D]  begin process request:&{2     1112  2019-02-17 21:01:26.3393799 +0800 CST [ }
+2019/02/17 21:02:15.193 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:15.1923794+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:15.194 [D]  begin process request:&{2     1112  2019-02-17 21:02:15.1923794 +0800 CST [ }
+2019/02/17 21:02:16.112 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:16.1103783+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:16.112 [D]  begin process request:&{2     1112  2019-02-17 21:02:16.1103783 +0800 CST [ }
+2019/02/17 21:02:16.944 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:16.943377+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:16.945 [D]  begin process request:&{2     1112  2019-02-17 21:02:16.943377 +0800 CST [ }
+2019/02/17 21:02:17.987 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:17.98638+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:17.988 [D]  begin process request:&{2     1112  2019-02-17 21:02:17.98638 +0800 CST [ }
+2019/02/17 21:02:18.911 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:18.9103769+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:18.911 [D]  begin process request:&{2     1112  2019-02-17 21:02:18.9103769 +0800 CST [ }
+2019/02/17 21:02:19.762 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1112,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:19.7613767+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:19.762 [D]  begin process request:&{2     1112  2019-02-17 21:02:19.7613767 +0800 CST [ }
+2019/02/17 21:02:31.784 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:31.7813802+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:31.784 [D]  begin process request:&{2     1113  2019-02-17 21:02:31.7813802 +0800 CST [ }
+2019/02/17 21:02:34.930 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:34.9293809+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:34.930 [D]  begin process request:&{2     1113  2019-02-17 21:02:34.9293809 +0800 CST [ }
+2019/02/17 21:02:36.113 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:36.1113771+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:36.113 [D]  begin process request:&{2     1113  2019-02-17 21:02:36.1113771 +0800 CST [ }
+2019/02/17 21:02:37.863 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:37.8613776+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:37.863 [D]  begin process request:&{2     1113  2019-02-17 21:02:37.8613776 +0800 CST [ }
+2019/02/17 21:02:39.250 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:02:39.2493794+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:02:39.250 [D]  begin process request:&{2     1113  2019-02-17 21:02:39.2493794 +0800 CST [ }
+2019/02/17 21:28:26.838 [D]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:28:26.8369501+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:28:26.839 [D]  begin process request:&{2     1113  2019-02-17 21:28:26.8369501 +0800 CST [ }
+2019/02/17 21:28:26.839 [E]  rpush to redis failed,res:&{2 1113  0 1006},err:dial tcp 127.0.0.1:6379: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+2019/02/17 21:28:26.840 [E]  send to redis,err:dial tcp 127.0.0.1:6379: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.,res:&{2 1113  0 1006}
+2019/02/17 21:30:00.831 [E] [log.go:604]  ping redis err dial tcp 127.0.0.1:6379: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+2019/02/17 21:30:00.831 [E] [log.go:604]  init proxy2layerRadid failed,err :dial tcp 127.0.0.1:6379: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+2019/02/17 21:30:00.831 [E] [log.go:604]  init redis err:dial tcp 127.0.0.1:6379: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
+2019/02/17 21:30:19.542 [D] [log.go:634]  init redis sucess
+2019/02/17 21:30:19.557 [D] [log.go:634]  key[0] value[key:"/oldboy/seckill/product" create_revision:2 mod_revision:28 version:21 value:"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]" ]
+2019/02/17 21:30:19.558 [D] [log.go:634]  sec info succ is [[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]]
+2019/02/17 21:30:19.558 [D] [log.go:634]  load secProductInfo [{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:30:19.566 [D] [log.go:634]  init all succ
+2019/02/17 21:30:19.566 [D] [log.go:634]  init etcd sucess
+2019/02/17 21:30:19.569 [D] [log.go:634]  begin watch key:/oldboy/seckill/product
+2019/02/17 21:30:19.570 [D] [log.go:634]  all prcess goroutine started
+2019/02/17 21:30:19.570 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.570 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.570 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.570 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.571 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle write running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:19.573 [D] [log.go:634]  handle user running
+2019/02/17 21:30:24.654 [D] [log.go:634]  get config from etcd PUT "/oldboy/seckill/product":"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]"
+
+2019/02/17 21:30:24.655 [D] [log.go:634]  get config from etcd succ,[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:33:35.088 [D] [init.go:16]  init redis sucess
+2019/02/17 21:33:35.108 [D] [product.go:28]  key[0] value[key:"/oldboy/seckill/product" create_revision:2 mod_revision:28 version:21 value:"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]" ]
+2019/02/17 21:33:35.109 [D] [product.go:34]  sec info succ is [[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]]
+2019/02/17 21:33:35.109 [D] [product.go:37]  load secProductInfo [{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:33:35.118 [D] [init.go:50]  init all succ
+2019/02/17 21:33:35.118 [D] [init.go:22]  init etcd sucess
+2019/02/17 21:33:35.119 [D] [product.go:71]  begin watch key:/oldboy/seckill/product
+2019/02/17 21:33:35.121 [D] [service.go:30]  all prcess goroutine started
+2019/02/17 21:33:35.121 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:114]  handle user running
+2019/02/17 21:33:35.122 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.122 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.122 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.123 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.123 [D] [service.go:86]  handle write running
+2019/02/17 21:33:35.123 [D] [service.go:86]  handle write running
+2019/02/17 21:33:40.190 [D] [product.go:90]  get config from etcd PUT "/oldboy/seckill/product":"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]"
+
+2019/02/17 21:33:40.190 [D] [product.go:93]  get config from etcd succ,[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:49:27.743 [D] [init.go:16]  init redis sucess
+2019/02/17 21:49:27.761 [D] [product.go:28]  key[0] value[key:"/oldboy/seckill/product" create_revision:2 mod_revision:28 version:21 value:"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]" ]
+2019/02/17 21:49:27.761 [D] [product.go:34]  sec info succ is [[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]]
+2019/02/17 21:49:27.761 [D] [product.go:37]  load secProductInfo [{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:49:27.769 [D] [init.go:50]  init all succ
+2019/02/17 21:49:27.769 [D] [init.go:22]  init etcd sucess
+2019/02/17 21:49:27.769 [D] [product.go:71]  begin watch key:/oldboy/seckill/product
+2019/02/17 21:49:27.770 [D] [service.go:30]  all prcess goroutine started
+2019/02/17 21:49:27.770 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.770 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.771 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.771 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.771 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.771 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:86]  handle write running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:114]  handle user running
+2019/02/17 21:49:27.772 [D] [service.go:86]  handle write running
+2019/02/17 21:49:32.804 [D] [product.go:90]  get config from etcd PUT "/oldboy/seckill/product":"[{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":1},{\"product_id\":1,\"start_time\":1550369777,\"end_time\":1550379677,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":1,\"start_time\":1550381167,\"end_time\":1550481067,\"status\":0,\"total\":10,\"left\":0,\"one_person_buy_limit\":1,\"buy_rate\":0,\"sold_maxlimit\":2},{\"product_id\":2,\"start_time\":1550388790,\"end_time\":1551388690,\"status\":0,\"total\":15,\"left\":0,\"one_person_buy_limit\":2,\"buy_rate\":0.5,\"sold_maxlimit\":1}]"
+
+2019/02/17 21:49:32.804 [D] [product.go:93]  get config from etcd succ,[{1 1550369777 1550379677 0 10 0 1 0 1 <nil>} {1 1550369777 1550379677 0 10 0 1 0 2 <nil>} {1 1550381167 1550481067 0 10 0 1 0 2 <nil>} {2 1550388790 1551388690 0 15 0 2 0.5 1 <nil>}]
+2019/02/17 21:49:39.730 [D] [service.go:59]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1113,"UserCookieSign":"","AccessTime":"2019-02-17T21:49:39.7294798+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:49:39.731 [D] [service.go:116]  begin process request:&{2     1113  2019-02-17 21:49:39.7294798 +0800 CST [ }
+2019/02/17 21:49:45.588 [D] [service.go:59]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1116,"UserCookieSign":"","AccessTime":"2019-02-17T21:49:45.5879837+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:49:45.589 [D] [service.go:116]  begin process request:&{2     1116  2019-02-17 21:49:45.5879837 +0800 CST [ }
+2019/02/17 21:49:49.208 [D] [service.go:59]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1116,"UserCookieSign":"","AccessTime":"2019-02-17T21:49:49.2070843+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:49:49.209 [D] [service.go:116]  begin process request:&{2     1116  2019-02-17 21:49:49.2070843 +0800 CST [ }
+2019/02/17 21:49:50.261 [D] [service.go:59]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1116,"UserCookieSign":"","AccessTime":"2019-02-17T21:49:50.2609114+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:49:50.261 [D] [service.go:116]  begin process request:&{2     1116  2019-02-17 21:49:50.2609114 +0800 CST [ }
+2019/02/17 21:49:51.831 [D] [service.go:59]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1116,"UserCookieSign":"","AccessTime":"2019-02-17T21:49:51.8308569+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:49:51.831 [D] [service.go:116]  begin process request:&{2     1116  2019-02-17 21:49:51.8308569 +0800 CST [ }
+2019/02/17 21:49:52.810 [D] [service.go:59]  pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1116,"UserCookieSign":"","AccessTime":"2019-02-17T21:49:52.8097966+08:00","ClientAddr":"[","ClientRefence":""}
+2019/02/17 21:49:52.811 [D] [service.go:116]  begin process request:&{2     1116  2019-02-17 21:49:52.8097966 +0800 CST [ }

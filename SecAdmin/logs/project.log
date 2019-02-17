@@ -1,0 +1,432 @@
+2019/02/16 12:05:25.672 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 12:05:25.673 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000179dd0}
+2019/02/16 12:05:25.693 [D] [init.go:63]  init etcd succ
+2019/02/16 12:05:25.694 [D] [proc.go:201]  initAll success
+2019/02/16 12:05:26.279 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 14:51:04.422 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 14:51:04.422 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/16 14:51:04.437 [D] [init.go:63]  init etcd succ
+2019/02/16 14:51:04.437 [D] [proc.go:201]  initAll success
+2019/02/16 14:51:04.974 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 15:19:40.276 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 15:19:40.276 [D] [init.go:58]  success mysql success,Db:&{0xc0001aa0c0 mysql false 0xc0001ba0c0}
+2019/02/16 15:19:40.286 [D] [init.go:63]  init etcd succ
+2019/02/16 15:19:40.287 [D] [proc.go:201]  initAll success
+2019/02/16 15:19:40.816 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 16:15:51.781 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 16:15:51.781 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000163dd0}
+2019/02/16 16:15:51.791 [D] [init.go:63]  init etcd succ
+2019/02/16 16:15:51.792 [D] [proc.go:201]  initAll success
+2019/02/16 16:15:52.333 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 16:24:56.308 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 16:24:56.309 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000177dd0}
+2019/02/16 16:24:56.321 [D] [init.go:63]  init etcd succ
+2019/02/16 16:24:56.321 [D] [proc.go:201]  initAll success
+2019/02/16 16:24:56.811 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 16:26:29.793 [D] [product.go:69]  insert into mysql success
+2019/02/16 16:34:25.563 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 16:34:25.563 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000179dd0}
+2019/02/16 16:34:25.577 [D] [init.go:63]  init etcd succ
+2019/02/16 16:34:25.577 [D] [proc.go:201]  initAll success
+2019/02/16 16:34:25.962 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 16:40:30.495 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 16:40:30.495 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/16 16:40:30.507 [D] [init.go:63]  init etcd succ
+2019/02/16 16:40:30.507 [D] [proc.go:201]  initAll success
+2019/02/16 16:40:30.913 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 16:51:54.552 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 16:51:54.553 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/16 16:51:54.564 [D] [init.go:63]  init etcd succ
+2019/02/16 16:51:54.564 [D] [proc.go:201]  initAll success
+2019/02/16 16:51:54.976 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 16:56:30.751 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 16:56:30.752 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000179dd0}
+2019/02/16 16:56:30.764 [D] [init.go:63]  init etcd succ
+2019/02/16 16:56:30.765 [D] [proc.go:201]  initAll success
+2019/02/16 16:56:31.143 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 17:10:37.215 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 17:10:37.216 [D] [init.go:58]  success mysql success,Db:&{0xc0000f40c0 mysql false 0xc00015bdd0}
+2019/02/16 17:10:37.226 [D] [init.go:63]  init etcd succ
+2019/02/16 17:10:37.227 [D] [proc.go:201]  initAll success
+2019/02/16 17:10:37.591 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 17:16:07.294 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 17:16:07.295 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/16 17:16:07.308 [D] [init.go:63]  init etcd succ
+2019/02/16 17:16:07.308 [D] [proc.go:201]  initAll success
+2019/02/16 17:16:07.763 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 17:27:10.405 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 17:27:10.405 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000177dd0}
+2019/02/16 17:27:10.419 [D] [init.go:63]  init etcd succ
+2019/02/16 17:27:10.419 [D] [proc.go:201]  initAll success
+2019/02/16 17:27:10.864 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:04:21.765 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:04:21.766 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000175dd0}
+2019/02/16 23:04:21.776 [D] [init.go:63]  init etcd succ
+2019/02/16 23:04:21.776 [D] [proc.go:201]  initAll success
+2019/02/16 23:04:22.285 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:05:39.657 [server.go:2977]  [HTTP] http: panic serving [::1]:55552: can't find templatefile in the path:views//activitycontroller/listactivity.tpl
+goroutine 65 [running]:
+net/http.(*conn).serve.func1(0xc00098a000)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc000138570)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc00028a510)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc000138570)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc000118150, 0xc00016c0c0, 0x23, 0xc00008499a, 0x6, 0xb635e0, 0xc00028a540, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc00019a690, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc00019a690, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc00019a690, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce420, 0xd430a0, 0xc000324000, 0xc0001a4800)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011a820, 0xd430a0, 0xc000324000, 0xc0001a4800)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc00098a000, 0xd437e0, 0xc0002a2900)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:05:41.689 [server.go:2977]  [HTTP] http: panic serving [::1]:55554: can't find templatefile in the path:views//activitycontroller/listactivity.tpl
+goroutine 152 [running]:
+net/http.(*conn).serve.func1(0xc0009a2000)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0001394b0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc00028a510)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0001394b0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc000288770, 0xc0000971a0, 0x23, 0xc00008499a, 0x6, 0xb635e0, 0xc00028afc0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc00019a780, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc00019a780, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc00019a780, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce420, 0xd430a0, 0xc0003240e0, 0xc0001a4900)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011a820, 0xd430a0, 0xc0003240e0, 0xc0001a4900)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc0009a2000, 0xd437e0, 0xc0002a2a40)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:05:42.719 [server.go:2977]  [HTTP] http: panic serving [::1]:58347: can't find templatefile in the path:views//activitycontroller/listactivity.tpl
+goroutine 192 [running]:
+net/http.(*conn).serve.func1(0xc00007e320)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0003bf0d0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc000234cc0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0003bf0d0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc0005a4070, 0xc0003b6060, 0x23, 0xc00008499a, 0x6, 0xb635e0, 0xc000234cf0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000668000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000668000, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000668000, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce420, 0xd430a0, 0xc00011e000, 0xc0001a4000)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011a820, 0xd430a0, 0xc00011e000, 0xc0001a4000)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc00007e320, 0xd437e0, 0xc0006be000)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:05:42.946 [server.go:2977]  [HTTP] http: panic serving 127.0.0.1:58345: can't find templatefile in the path:views//activitycontroller/listactivity.tpl
+goroutine 153 [running]:
+net/http.(*conn).serve.func1(0xc0001820a0)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0003d0b90)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc000434090)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0003d0b90)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc0008c8070, 0xc000278030, 0x23, 0xc00008499a, 0x6, 0xb635e0, 0xc0004342a0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc00027e000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc00027e000, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc00027e000, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce420, 0xd430a0, 0xc00027a000, 0xc0006ba000)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011a820, 0xd430a0, 0xc00027a000, 0xc0006ba000)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc0001820a0, 0xd437e0, 0xc00029a040)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:08:27.847 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:08:27.847 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc00015fdd0}
+2019/02/16 23:08:27.857 [D] [init.go:63]  init etcd succ
+2019/02/16 23:08:27.857 [D] [proc.go:201]  initAll success
+2019/02/16 23:08:28.284 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:09:38.155 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:09:38.156 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/16 23:09:38.166 [D] [init.go:63]  init etcd succ
+2019/02/16 23:09:38.166 [D] [proc.go:201]  initAll success
+2019/02/16 23:09:38.546 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:14:37.919 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:14:37.919 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000163dd0}
+2019/02/16 23:14:37.930 [D] [init.go:63]  init etcd succ
+2019/02/16 23:14:37.930 [D] [proc.go:201]  initAll success
+2019/02/16 23:14:38.343 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:14:40.779 [W] [product.go:18]  select from mysql failed,err:dial tcp [::1]:3306: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.,sql:select id,name,total,status from product
+2019/02/16 23:14:40.801 [server.go:2977]  [HTTP] http: panic serving 127.0.0.1:58172: can't find templatefile in the path:views//productcontroller/listproduct.tpl
+goroutine 92 [running]:
+net/http.(*conn).serve.func1(0xc00019a140)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0001266b0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc0003dc6c0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0001266b0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc000104150, 0xc000158060, 0x21, 0xc00002a9da, 0x6, 0xb635e0, 0xc0003dc6f0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000174690, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000174690, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000174690, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000be4d0, 0xd430a0, 0xc00010c000, 0xc000808000)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc000108680, 0xd430a0, 0xc00010c000, 0xc000808000)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc00019a140, 0xd437e0, 0xc00026a300)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:14:40.812 [W] [product.go:18]  select from mysql failed,err:dial tcp [::1]:3306: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.,sql:select id,name,total,status from product
+2019/02/16 23:14:40.839 [server.go:2977]  [HTTP] http: panic serving 127.0.0.1:58172: can't find templatefile in the path:views//productcontroller/listproduct.tpl
+goroutine 24 [running]:
+net/http.(*conn).serve.func1(0xc00007a8c0)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc00018c880)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc0003bf560)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc00018c880)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc0007de7e0, 0xc00002c6f0, 0x21, 0xc00002a9da, 0x6, 0xb635e0, 0xc0003bf5f0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000696000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000696000, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000696000, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000be4d0, 0xd430a0, 0xc000692000, 0xc000180100)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc000108680, 0xd430a0, 0xc000692000, 0xc000180100)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc00007a8c0, 0xd437e0, 0xc0002208c0)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:14:41.902 [W] [product.go:18]  select from mysql failed,err:dial tcp [::1]:3306: bind: An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.,sql:select id,name,total,status from product
+2019/02/16 23:14:41.931 [server.go:2977]  [HTTP] http: panic serving 127.0.0.1:58172: can't find templatefile in the path:views//productcontroller/listproduct.tpl
+goroutine 28 [running]:
+net/http.(*conn).serve.func1(0xc00007a960)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc000395900)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc00046ab10)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc000395900)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd39260, 0xc00056a070, 0xc00065a030, 0x21, 0xc00002a9da, 0x6, 0xb635e0, 0xc00046ab40, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000660000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000660000, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000660000, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000be4d0, 0xd430a0, 0xc00065c000, 0xc000180300)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc000108680, 0xd430a0, 0xc00065c000, 0xc000180300)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc00007a960, 0xd437e0, 0xc000220cc0)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:15:56.680 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:15:56.681 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000179dd0}
+2019/02/16 23:15:56.694 [D] [init.go:63]  init etcd succ
+2019/02/16 23:15:56.694 [D] [proc.go:201]  initAll success
+2019/02/16 23:15:57.106 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:17:21.833 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:17:21.834 [D] [init.go:58]  success mysql success,Db:&{0xc0001100c0 mysql false 0xc000175dd0}
+2019/02/16 23:17:21.845 [D] [init.go:63]  init etcd succ
+2019/02/16 23:17:21.845 [D] [proc.go:201]  initAll success
+2019/02/16 23:17:22.318 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/16 23:17:29.890 [W] [product.go:19]  select from mysql failed,err:dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.,sql:select id,name,total,status from product
+2019/02/16 23:17:29.908 [server.go:2977]  [HTTP] http: panic serving [::1]:58177: can't find templatefile in the path:views//productcontroller/listproduct.tpl
+goroutine 45 [running]:
+net/http.(*conn).serve.func1(0xc0002340a0)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0001bc840)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc000868090)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0001bc840)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd392a0, 0xc00056c070, 0xc00016c090, 0x21, 0xc00008499a, 0x6, 0xb635e0, 0xc0008680c0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000198690, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000198690, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000198690, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce4d0, 0xd430e0, 0xc000120000, 0xc000285f00)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011c820, 0xd430e0, 0xc000120000, 0xc000285f00)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc0002340a0, 0xd43820, 0xc000254880)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:17:31.922 [W] [product.go:19]  select from mysql failed,err:dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.,sql:select id,name,total,status from product
+2019/02/16 23:17:31.940 [server.go:2977]  [HTTP] http: panic serving [::1]:58178: can't find templatefile in the path:views//productcontroller/listproduct.tpl
+goroutine 46 [running]:
+net/http.(*conn).serve.func1(0xc000234140)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0003b8c40)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc000868090)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0003b8c40)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd392a0, 0xc00013c310, 0xc000096450, 0x21, 0xc00008499a, 0x6, 0xb635e0, 0xc000868420, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000198780, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000198780, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000198780, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce4d0, 0xd430e0, 0xc0001200e0, 0xc0003b6100)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011c820, 0xd430e0, 0xc0001200e0, 0xc0003b6100)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc000234140, 0xd43820, 0xc000038080)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:17:33.956 [W] [product.go:19]  select from mysql failed,err:dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.,sql:select id,name,total,status from product
+2019/02/16 23:17:33.974 [server.go:2977]  [HTTP] http: panic serving [::1]:58185: can't find templatefile in the path:views//productcontroller/listproduct.tpl
+goroutine 121 [running]:
+net/http.(*conn).serve.func1(0xc0002341e0)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0003c0370)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc000868090)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0003c0370)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd392a0, 0xc00011b420, 0xc000474420, 0x21, 0xc00008499a, 0x6, 0xb635e0, 0xc0001aaed0, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc0007fa000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc0007fa000, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc0007fa000, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce4d0, 0xd430e0, 0xc00029e380, 0xc00081a200)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011c820, 0xd430e0, 0xc00029e380, 0xc00081a200)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc0002341e0, 0xd43820, 0xc000254cc0)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/16 23:19:26.569 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/16 23:19:26.570 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000177dd0}
+2019/02/16 23:19:26.580 [D] [init.go:63]  init etcd succ
+2019/02/16 23:19:26.581 [D] [proc.go:201]  initAll success
+2019/02/16 23:19:26.962 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 10:13:44.570 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 10:13:44.571 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000175dd0}
+2019/02/17 10:13:44.581 [D] [init.go:63]  init etcd succ
+2019/02/17 10:13:44.582 [D] [proc.go:201]  initAll success
+2019/02/17 10:13:45.001 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 10:14:18.148 [server.go:2977]  [HTTP] http: panic serving [::1]:58733: can't find templatefile in the path:views//activitycontroller/listactivity.tpl
+goroutine 151 [running]:
+net/http.(*conn).serve.func1(0xc00007e000)
+	D:/blockchain/Go/src/net/http/server.go:1746 +0xd7
+panic(0xb36560, 0xc0001bc9f0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.recoverPanic(0xc0008ac660)
+	D:/blockchain/Go/src/github.com/astaxie/beego/config.go:167 +0x6a3
+panic(0xb36560, 0xc0001bc9f0)
+	D:/blockchain/Go/src/runtime/panic.go:513 +0x1c7
+github.com/astaxie/beego.ExecuteViewPathTemplate(0xd392a0, 0xc00042e150, 0xc000096360, 0x23, 0xc00008499a, 0x6, 0xb635e0, 0xc0008ac690, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/template.go:73 +0x394
+github.com/astaxie/beego.(*Controller).renderTemplate(0xc000198690, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:264 +0x3e4
+github.com/astaxie/beego.(*Controller).RenderBytes(0xc000198690, 0xc650ba, 0x4, 0x12c11c8, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:215 +0x95
+github.com/astaxie/beego.(*Controller).Render(0xc000198690, 0x0, 0x0)
+	D:/blockchain/Go/src/github.com/astaxie/beego/controller.go:195 +0x48
+github.com/astaxie/beego.(*ControllerRegister).ServeHTTP(0xc0000ce420, 0xd430e0, 0xc0002821c0, 0xc000878400)
+	D:/blockchain/Go/src/github.com/astaxie/beego/router.go:859 +0x1d2f
+net/http.serverHandler.ServeHTTP(0xc00011a680, 0xd430e0, 0xc0002821c0, 0xc000878400)
+	D:/blockchain/Go/src/net/http/server.go:2741 +0xb2
+net/http.(*conn).serve(0xc00007e000, 0xd43820, 0xc0008aa1c0)
+	D:/blockchain/Go/src/net/http/server.go:1847 +0x64d
+created by net/http.(*Server).Serve
+	D:/blockchain/Go/src/net/http/server.go:2851 +0x2fc
+2019/02/17 11:42:59.477 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 11:42:59.478 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/17 11:42:59.488 [D] [init.go:63]  init etcd succ
+2019/02/17 11:42:59.488 [D] [proc.go:201]  initAll success
+2019/02/17 11:42:59.853 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 14:42:36.544 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 14:42:36.545 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000175dd0}
+2019/02/17 14:42:36.556 [D] [init.go:63]  init etcd succ
+2019/02/17 14:42:36.557 [D] [proc.go:201]  initAll success
+2019/02/17 14:42:37.018 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 15:29:35.739 [W] [product.go:70]  insert from mysql failed,err:dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.,sql:insert into product (name,total,status)VALUES (?,?,?)
+2019/02/17 15:30:10.518 [D] [product.go:70]  insert into mysql success
+2019/02/17 15:30:15.188 [W] [product.go:70]  insert from mysql failed,err:Error 1062: Duplicate entry '魅族pro6Plus' for key 'name',sql:insert into product (name,total,status)VALUES (?,?,?)
+2019/02/17 15:30:40.192 [D] [product.go:70]  insert into mysql success
+2019/02/17 18:32:27.105 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 18:32:27.107 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000175dd0}
+2019/02/17 18:32:27.119 [D] [init.go:63]  init etcd succ
+2019/02/17 18:32:27.119 [D] [proc.go:201]  initAll success
+2019/02/17 18:32:27.584 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 18:36:49.955 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 18:36:49.955 [D] [init.go:58]  success mysql success,Db:&{0xc0000f40c0 mysql false 0xc00015ddd0}
+2019/02/17 18:36:49.966 [D] [init.go:63]  init etcd succ
+2019/02/17 18:36:49.966 [D] [proc.go:201]  initAll success
+2019/02/17 18:36:50.417 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 18:57:24.673 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 18:57:24.673 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000175dd0}
+2019/02/17 18:57:24.684 [D] [init.go:63]  init etcd succ
+2019/02/17 18:57:24.684 [D] [proc.go:201]  initAll success
+2019/02/17 18:57:25.118 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 20:23:18.466 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 20:23:18.467 [D] [init.go:58]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000161dd0}
+2019/02/17 20:23:18.480 [D] [init.go:63]  init etcd succ
+2019/02/17 20:23:18.480 [D] [proc.go:201]  initAll success
+2019/02/17 20:23:19.010 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083
+2019/02/17 21:00:09.766 [D] [main.go:17]  load Config sucess,appconf:{{root root 3306 seckill localhost} {127.0.0.1:2380 /oldboy/seckill product 5}}
+2019/02/17 21:00:09.767 [D] [init.go:58]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000179dd0}
+2019/02/17 21:00:09.777 [D] [init.go:63]  init etcd succ
+2019/02/17 21:00:09.777 [D] [proc.go:201]  initAll success
+2019/02/17 21:00:10.204 [I] [asm_amd64.s:1333]  http server Running on http://0.0.0.0:8083

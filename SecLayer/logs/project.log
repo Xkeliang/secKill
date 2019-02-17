@@ -1,0 +1,12 @@
+2019/02/16 23:04:59.497 [E] [log.go:604]  load config of mysqlUserName failed,is null
+2019/02/16 23:04:59.497 [D] [log.go:634]  load Config sucess,appconf:{{  0  } {   0}}
+2019/02/16 23:04:59.498 [D] [log.go:634]  success mysql success,Db:&{0xc00010e0c0 mysql false 0xc000193710}
+2019/02/16 23:04:59.509 [D] [log.go:634]  init etcd succ
+2019/02/16 23:04:59.509 [D] [log.go:634]  initAll success
+2019/02/16 23:04:59.812 [I] [log.go:629]  http server Running on http://:8080
+2019/02/16 23:25:04.916 [E] [log.go:604]  load config of mysqlUserName failed,is null
+2019/02/16 23:25:04.916 [D] [log.go:634]  load Config sucess,appconf:{{  0  } {   0}}
+2019/02/16 23:25:04.916 [D] [log.go:634]  success mysql success,Db:&{0xc0000fa0c0 mysql false 0xc000171710}
+2019/02/16 23:25:04.928 [D] [log.go:634]  init etcd succ
+2019/02/16 23:25:04.928 [D] [log.go:634]  initAll success
+2019/02/16 23:25:05.238 [I] [log.go:629]  http server Running on http://:8080
